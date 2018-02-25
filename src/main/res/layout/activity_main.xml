@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.mounika.datastorage113.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#98FF98"
+        android:hint=" Enter Name"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:textColor="#4B0082"
+        android:textStyle="bold"
+        android:id="@+id/name_et"
+        android:layout_marginTop="15dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#98FB98"
+        android:id="@+id/age_et"
+        android:hint=" Enter Age"
+        android:textSize="20dp"
+        android:layout_below="@+id/name_et"
+        android:textColor="#4B0082"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:layout_marginTop="15dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/show_btn"
+        android:gravity="center"
+        android:text="Save in the DataBase and Show"
+        android:layout_centerVertical="true"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+</LinearLayout>
